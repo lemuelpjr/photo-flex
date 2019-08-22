@@ -6,4 +6,14 @@ body {
   max-width: 96rem;
   margin: auto;
 }
+
+.header {
+  padding: 1.5rem;
+}
+
+.header__title {
+  color: #e84343;
+  font-family: "Caveat", cursive;
+  font-size: 6rem;
+}
 /*# sourceMappingURL=main.css.map */

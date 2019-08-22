@@ -13,3 +13,13 @@ body {
   max-width: 96rem;
   margin: auto;
 }
+
+.header {
+  padding: 1.5rem;
+
+  &__title {
+    color: $red;
+    font-family: "Caveat", cursive;
+    font-size: 6rem;
+  }
+}
