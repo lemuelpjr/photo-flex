@@ -1,8 +1,7 @@
 // Color variables
 $red: #e84343;
 $black: #333;
-$dark-gray: #777;
-$light-gray: #eee;
+$light-gray: #f6f6f6;
 $white: #fff;
 
 // Font variables
@@ -76,8 +75,30 @@ body {
 
   &__grid {
     &--placeholder {
-      background-color: #ddd;
+      background-color: $light-gray;
       height: 100rem;
     }
+  }
+}
+
+// CONTACT STYLES
+.contact {
+  background-color: $light-gray;
+
+  &__title {
+    @include section-title($black);
+    padding-top: 2rem;
+  }
+
+  &__icons i {
+    font-size: 3rem;
+    margin: 0 1rem;
+  }
+
+  &__copyright {
+    color: $black;
+    font-family: $primary-font;
+    font-size: 1.8rem;
+    padding: 2rem;
   }
 }
