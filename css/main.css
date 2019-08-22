@@ -8,6 +8,7 @@ body {
 }
 
 .header {
+  margin-bottom: 6rem;
   padding: 1.5rem;
 }
 
@@ -22,7 +23,7 @@ body {
 }
 
 .header__menu--item {
-  color: #000;
+  color: #333;
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
   font-weight: 300;
@@ -31,7 +32,17 @@ body {
 }
 
 .header__menu--middle-item {
-  border-left: solid 1px #000;
-  border-right: solid 1px #000;
+  border-left: solid 1px #333;
+  border-right: solid 1px #333;
+}
+
+.portfolio {
+  margin-bottom: 6rem;
+}
+
+.portfolio__title {
+  color: #333;
+  font-family: "Caveat", cursive;
+  font-size: 4rem;
 }
 /*# sourceMappingURL=main.css.map */
