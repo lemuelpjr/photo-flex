@@ -10,13 +10,15 @@ $primary-font: 'Caveat', cursive;
 $secondary-font: 'Open Sans', sans-serif;
 
 // Layout variables
-$margin-bottom: 6rem;
+$margin-bottom-sm: 4rem;
+$margin-bottom-lg: 6rem;
 
 // Text mixin
 @mixin section-title($color) {
   color: $color;
   font-family: $primary-font;
   font-size: 4rem;
+  margin-bottom: $margin-bottom-sm;
 }
 
 // GLOBAL STYLES
@@ -25,13 +27,13 @@ body {
 }
 
 .container {
-  max-width: 96rem;
+  max-width: 80rem;
   margin: auto;
 }
 
 // HEADER STYLES
 .header {
-  margin-bottom: $margin-bottom;
+  margin-bottom: $margin-bottom-lg;
   padding: 1.5rem;
 
   &__title {
@@ -66,9 +68,16 @@ body {
 
 // PORTFOLIO STYLES
 .portfolio {
-  margin-bottom: $margin-bottom;
+  margin-bottom: $margin-bottom-lg;
 
   &__title {
     @include section-title($black);
+  }
+
+  &__grid {
+    &--placeholder {
+      background-color: #ddd;
+      height: 100rem;
+    }
   }
 }

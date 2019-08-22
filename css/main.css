@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  max-width: 96rem;
+  max-width: 80rem;
   margin: auto;
 }
 
@@ -49,5 +49,11 @@ body {
   color: #333;
   font-family: "Caveat", cursive;
   font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+.portfolio__grid--placeholder {
+  background-color: #ddd;
+  height: 100rem;
 }
 /*# sourceMappingURL=main.css.map */
