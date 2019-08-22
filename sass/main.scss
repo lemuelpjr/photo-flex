@@ -90,9 +90,19 @@ body {
     padding-top: 2rem;
   }
 
+  &__icons {
+    paddig-top: 1rem;
+  }
+
   &__icons i {
-    font-size: 3rem;
+    color: $black;
+    font-size: 2rem;
     margin: 0 1rem;
+  }
+
+  &__icons i:hover {
+    color: $red;
+    cursor: pointer;
   }
 
   &__copyright {

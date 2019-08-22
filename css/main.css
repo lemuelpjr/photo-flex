@@ -69,9 +69,19 @@ body {
   padding-top: 2rem;
 }
 
+.contact__icons {
+  paddig-top: 1rem;
+}
+
 .contact__icons i {
-  font-size: 3rem;
+  color: #333;
+  font-size: 2rem;
   margin: 0 1rem;
+}
+
+.contact__icons i:hover {
+  color: #e84343;
+  cursor: pointer;
 }
 
 .contact__copyright {
