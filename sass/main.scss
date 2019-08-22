@@ -1,7 +1,15 @@
-/* Colors for reference:
-#e84343 red
-#000 black
-#777 dark gray
-#eee light gray
-#fff white
-*/
+// Color variables
+$red: #e84343;
+$black: #000;
+$dark-gray: #777;
+$light-gray: #eee;
+$white: #fff;
+
+body {
+  text-align: center;
+}
+
+.container {
+  max-width: 96rem;
+  margin: auto;
+}

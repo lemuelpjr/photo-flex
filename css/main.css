@@ -1,8 +1,9 @@
-/* Colors for reference:
-#e84343 red
-#000 black
-#777 dark gray
-#eee light gray
-#fff white
-*/
+body {
+  text-align: center;
+}
+
+.container {
+  max-width: 96rem;
+  margin: auto;
+}
 /*# sourceMappingURL=main.css.map */
