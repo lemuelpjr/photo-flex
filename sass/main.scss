@@ -22,4 +22,22 @@ body {
     font-family: "Caveat", cursive;
     font-size: 6rem;
   }
+
+  &__menu {
+    margin: 0.5rem 0;
+
+    &--item {
+      color: $black;
+      font-family: "Open Sans", sans-serif;
+      font-size: 2rem;
+      font-weight: 300;
+      text-decoration: none;
+      padding: 0.1rem 3rem;
+    }
+
+    &--middle-item {
+      border-left: solid 1px $black;
+      border-right: solid 1px $black;
+    }
+  }
 }
