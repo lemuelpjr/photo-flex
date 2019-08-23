@@ -61,9 +61,9 @@ body {
 }
 
 .portfolio__column {
-  -webkit-box-flex: 50%;
-      -ms-flex: 50%;
-          flex: 50%;
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
 }
 
 .portfolio__column--picture {
