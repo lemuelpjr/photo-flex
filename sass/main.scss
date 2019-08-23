@@ -2,7 +2,6 @@
 $red: #e84343;
 $black: #333;
 $light-gray: #f6f6f6;
-$white: #fff;
 
 // Font variables
 $primary-font: 'Caveat', cursive;
@@ -110,5 +109,13 @@ body {
     font-family: $primary-font;
     font-size: 2rem;
     padding: 2rem;
+  }
+}
+
+// MEDIA QUERIES
+@media only screen and (max-width: 500px) {
+  .header__menu--item {
+    font-size: 1.8rem;
+    padding: 0 1.4rem;
   }
 }
