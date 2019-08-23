@@ -52,6 +52,24 @@ body {
   margin-bottom: 4rem;
 }
 
+.portfolio__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolio__column {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.portfolio__column--picture {
+  width: 100%;
+}
+
 .contact {
   background-color: #f6f6f6;
 }

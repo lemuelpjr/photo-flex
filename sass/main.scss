@@ -72,9 +72,16 @@ body {
     @include section-title($black);
   }
 
-  &__grid {
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__column {
+    flex: 50%;
+
     &--picture {
-      // Style here
+      width: 100%;
     }
   }
 }
