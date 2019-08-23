@@ -75,13 +75,16 @@ body {
   &__row {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 0.2rem;
   }
 
   &__column {
     flex: 33%;
+    padding: 0 0.2rem;
 
     &--picture {
       width: 100%;
+      margin-top: 0.2rem;
     }
   }
 }
