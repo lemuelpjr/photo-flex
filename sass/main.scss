@@ -16,7 +16,7 @@ $margin-bottom-lg: 6rem;
 @mixin section-title($color) {
   color: $color;
   font-family: $primary-font;
-  font-size: 4rem;
+  font-size: 4.4rem;
   margin-bottom: $margin-bottom-sm;
 }
 
@@ -91,13 +91,13 @@ body {
   }
 
   &__icons {
-    paddig-top: 1rem;
+    padding-top: 1.6rem;
   }
 
   &__icons i {
     color: $black;
-    font-size: 2rem;
-    margin: 0 1rem;
+    font-size: 2.2rem;
+    margin: 0 1.4rem;
   }
 
   &__icons i:hover {
@@ -108,7 +108,7 @@ body {
   &__copyright {
     color: $black;
     font-family: $primary-font;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 2rem;
   }
 }

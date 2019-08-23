@@ -48,7 +48,7 @@ body {
 .portfolio__title {
   color: #333;
   font-family: "Caveat", cursive;
-  font-size: 4rem;
+  font-size: 4.4rem;
   margin-bottom: 4rem;
 }
 
@@ -64,19 +64,19 @@ body {
 .contact__title {
   color: #333;
   font-family: "Caveat", cursive;
-  font-size: 4rem;
+  font-size: 4.4rem;
   margin-bottom: 4rem;
   padding-top: 2rem;
 }
 
 .contact__icons {
-  paddig-top: 1rem;
+  padding-top: 1.6rem;
 }
 
 .contact__icons i {
   color: #333;
-  font-size: 2rem;
-  margin: 0 1rem;
+  font-size: 2.2rem;
+  margin: 0 1.4rem;
 }
 
 .contact__icons i:hover {
@@ -87,7 +87,7 @@ body {
 .contact__copyright {
   color: #333;
   font-family: "Caveat", cursive;
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
