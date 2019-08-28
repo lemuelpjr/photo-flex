@@ -1,10 +1,10 @@
 *,
 *::before,
 *::after {
+  box-sizing: inherit;
   /* Set no extra padding and margin to all elements */
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   /* Set general font-size and font weight */
   font-size: 100%;
   font-weight: 300;
@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  box-sizing: border-box;
   /* Prevent horizontal scrolling */
   overflow-x: hidden;
   width: 100%;
